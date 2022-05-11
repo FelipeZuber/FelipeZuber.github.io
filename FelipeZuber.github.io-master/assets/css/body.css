@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
-
+*::root{
+    --global-text-color: rgb(255, 255, 255);
+}
     /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -22,6 +24,9 @@
     border: 3px none #000000;
   }
 
+body {
+    color: var(--global-text-color);
+}
 #fondo{
     /* background : rgba(255, 255, 255, 0.075); */
     display: flex;
@@ -139,6 +144,7 @@
     padding: 1em;
     
     float: right;
+    
 }
 
 
