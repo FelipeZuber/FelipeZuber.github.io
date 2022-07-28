@@ -1,0 +1,134 @@
+
+*::root{
+    --global-text-color: rgb(255, 255, 255);
+}
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d68787 #9b3939;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #9b3939;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d68787;
+    border-radius: 11px;
+    border: 3px none #000000;
+}
+#fondo{
+    /* background : rgba(255, 255, 255, 0.075); */
+    display: block;
+    height: 100%; 
+    width: 99%;
+    font-family: Lato, sans-serif;
+    color: rgba(34, 34, 34, 0.959);
+    
+    
+    
+    
+
+    background: #bb4242;
+    background: radial-gradient(circle farthest-corner at center center, #ceacac 20%, #9b3939 100%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #ceacac 10%, #9b3939 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #ceacac 10%, #9b3939 100%);
+}
+
+/* h1 {
+    -webkit-text-stroke: 1.3px red;
+}     */
+.exhibición{
+    display: absolute;
+    background: rgba(255, 255, 255, 0.048) ;
+    height: 100%;
+    width: 99%;
+    border-radius: 0.7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+    vertical-align: top;
+    text-align: center;
+    
+
+    box-shadow: 1px 4px 20px 0px #9b3939;
+    -webkit-box-shadow: 1px 4px 20px 0px #9b3939;
+    -moz-box-shadow: 1px 4px 20px 0px #9b3939;
+}
+
+
+.exhibiciónl{
+    display: flex;
+    height: 100%;
+    width: 99%;
+    border-radius: 0.7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    vertical-align: top;
+    text-align: center;
+    
+
+    box-shadow: 1px 4px 20px 0px #9b3939;
+    -webkit-box-shadow: 1px 4px 20px 0px #9b3939;
+    -moz-box-shadow: 1px 4px 20px 0px #9b3939;
+}
+.modell{
+    display: block;
+    height: 600px;
+    width: 34%;
+    float: left;
+    margin: 0.5em;
+    
+    
+}
+
+.textboxl{
+    display: block;
+    margin-top: 1em;
+    height: 90%;
+    width: 70%;
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    text-align: center;
+    
+}
+
+
+.exhibiciónr{
+    display: absolute;
+    background: rgba(255, 255, 255, 0.048) ;
+    height: 400px;
+    width: 99%;
+    border-radius: 0.7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    vertical-align: top;
+    text-align: center;
+    
+
+    box-shadow: 1px 4px 20px 0px #9b3939;
+    -webkit-box-shadow: 1px 4px 20px 0px #9b3939;
+    -moz-box-shadow: 1px 4px 20px 0px #9b3939;
+}
+.textboxr{
+    display: block;
+    background-color: #393e46;
+    height: 90%;
+    width: 80%;
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    color: rgba(233, 233, 233, 0.959);
+    font-size: 15px;
+}
