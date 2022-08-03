@@ -89,6 +89,15 @@
     
     
 }
+.modelr{
+    display: block;
+    height: 600px;
+    width: 34%;
+    float: right;
+    margin: 0.5em;
+    
+    
+}
 
 .textboxl{
     display: block;
@@ -105,9 +114,8 @@
 
 
 .exhibiciónr{
-    display: absolute;
-    background: rgba(255, 255, 255, 0.048) ;
-    height: 400px;
+    display: flex;
+    height: 100%;
     width: 99%;
     border-radius: 0.7em;
     margin-top: 1em;
@@ -122,13 +130,12 @@
 }
 .textboxr{
     display: block;
-    background-color: #393e46;
+    margin-top: 1em;
     height: 90%;
-    width: 80%;
+    width: 70%;
     float: right;
     margin: 0.5em;
     padding: 0.5em;
     border-radius: 0.7em;
-    color: rgba(233, 233, 233, 0.959);
-    font-size: 15px;
+    text-align: center;
 }
